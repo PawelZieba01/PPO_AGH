@@ -1,20 +1,21 @@
 #include "led.h"
-#include <stdio.h>
 
 
 void Delay(int iTimeInMs){
 	int iCycle;
-	int iNumberOfCycles = 12000 * iTimeInMs;
+	int iNumberOfCycles = 2400 * iTimeInMs;
 	
 	for (iCycle = 0; iCycle < iNumberOfCycles; iCycle++) {}
 }
 
+Led MyLed;
+
 int main(void)
 {
-	LedInit();
+	MyLed.Init();
 
 	while(1){
 		Delay(100);
-		LedStepLeft();
+		MyLed.StepLeft();
 	}
 }

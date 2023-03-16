@@ -1,5 +1,8 @@
-enum LedState {STEP_LEFT, STEP_RIGHT, LED_STOP};
+#ifndef LED_H
+#define LED_H
 
 void LedStepRight(void);
 void LedStepLeft(void);
 void LedInit(void);
+
+#endif
