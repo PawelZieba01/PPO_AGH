@@ -4,9 +4,7 @@
 class Led
 {
 	public:
-		Led(void);
-	
-	protected:
+		void Init(void);
 		void On(unsigned char ucLedIndex);
 };
 
