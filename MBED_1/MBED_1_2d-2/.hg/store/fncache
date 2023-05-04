@@ -1,0 +1,5 @@
+data/BSP_DISCO_F429ZI.lib.i
+data/TS_DISCO_F429ZI.lib.i
+data/main.cpp.i
+data/mbed.bld.i
+data/LCD_DISCO_F429ZI.lib.i
