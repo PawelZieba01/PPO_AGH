@@ -1,10 +1,9 @@
-#include <LPC21xx.H>
 #include "ledpos.h"
 
 void LedPos::On(unsigned char ucLedIndex)
 {
 	IO1CLR = (LED0_bm | LED1_bm | LED2_bm | LED3_bm);
-
+	
 	switch(ucLedIndex){
 		case 0:
 			IO1SET = LED0_bm;
@@ -21,4 +20,4 @@ void LedPos::On(unsigned char ucLedIndex)
 		default:
 		break;		
 	}
-}
+}	

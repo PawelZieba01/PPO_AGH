@@ -7,7 +7,7 @@ void Delay(int iTimeInMs){
 	for (iCycle = 0; iCycle < iNumberOfCycles; iCycle++) {}
 }
 
-Stepper MyStepper(0);
+Stepper MyStepper(2);
 
 int main(void)
 {

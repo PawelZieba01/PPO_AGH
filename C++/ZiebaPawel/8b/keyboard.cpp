@@ -1,5 +1,5 @@
 #include <LPC21xx.H>
-#include "Keyboard.h"
+#include "keyboard.h"
 
 #define BUTTON1_bm (1<<4)
 #define BUTTON2_bm (1<<5)

@@ -42,14 +42,17 @@ void Led::Step(enum Step eStep){
 	}
 	else if(eStep == RIGHT){
 		ucLedCtr++;
-	}else{}
+	}else{
+	}
+	
 	ucLedCtr = ucLedCtr % 4;
-		On(ucLedCtr);
+	On(ucLedCtr);
 }
 
 void Led::StepLeft(void){
 	Step(LEFT);
 }
+
 
 void Led::StepRight(void){
 	Step(RIGHT);

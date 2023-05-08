@@ -13,17 +13,22 @@ Keyboard MyKeyboard;
 
 int main(void)
 {
-
 	while(1){
 		Delay(500);
-		switch(MyKeyboard.eRead()){
+		
+		switch(MyKeyboard.eRead())
+		{
 			case BUTTON_1:
 				MyStepper.StepRight();
 				break;
+			
 			case BUTTON_2:
 				MyStepper.StepLeft();
 				break;
-			default: break;
+			
+			default:
+				break;
 		}
+		
 	}
 }

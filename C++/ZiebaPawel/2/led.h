@@ -8,9 +8,8 @@ class Led{
 		void Init(void);
 	
 	private:
-		unsigned char ucLedCtr;
 		void On(unsigned char ucLedIndex);
 		void Step(enum Step eStep);
+		unsigned char ucLedCtr;
 };
-
 #endif
