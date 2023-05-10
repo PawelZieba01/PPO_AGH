@@ -7,5 +7,4 @@ class Led{
 	protected:
 		void On(unsigned char ucLedIndex);
 };
-
 #endif

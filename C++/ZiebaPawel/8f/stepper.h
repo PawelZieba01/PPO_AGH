@@ -10,11 +10,8 @@ class Stepper{
 		void SetLed(Led * pLed);
 	
 	private:
-		Led * pMyLed;
-	
-		unsigned char ucLedCtr;
-	
 		void Step(enum Step eStep);
+		unsigned char ucLedCtr;
+		Led * pMyLed;
 };
- 
 #endif

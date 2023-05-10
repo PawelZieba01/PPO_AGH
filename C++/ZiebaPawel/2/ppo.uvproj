@@ -398,14 +398,14 @@
               <FilePath>.\Startup.s</FilePath>
             </File>
             <File>
-              <FileName>led.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\led.cpp</FilePath>
-            </File>
-            <File>
               <FileName>main.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>.\main.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>led.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\led.cpp</FilePath>
             </File>
           </Files>
         </Group>

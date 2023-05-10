@@ -6,5 +6,4 @@ class Led{
 		Led(void);
 		void On(unsigned char ucLedIndex);
 };
-
 #endif

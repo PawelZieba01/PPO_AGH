@@ -10,7 +10,8 @@ enum KeyboardState{
 
 class Keyboard{
 	public:
-	Keyboard(void);
-	enum KeyboardState eRead(void);
+		Keyboard(void);
+		enum KeyboardState eRead(void);
 };
+
 #endif

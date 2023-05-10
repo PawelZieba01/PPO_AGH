@@ -1,4 +1,3 @@
-#include <LPC21xx.H>
 #include "ledinv.h"
 
 void LedInv::On(unsigned char ucLedIndex)
@@ -21,4 +20,4 @@ void LedInv::On(unsigned char ucLedIndex)
 		default:
 		break;		
 	}
-}
+}	

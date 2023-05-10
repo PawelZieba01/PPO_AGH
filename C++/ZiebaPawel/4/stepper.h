@@ -7,8 +7,7 @@ class Stepper{
 		void StepLeft(void);
 	
 	private:
-		unsigned char ucLedCtr;
 		void Step(enum Step eStep);
+		unsigned char ucLedCtr;
 };
-
 #endif
