@@ -1,0 +1,15 @@
+ROOT=.
+DEVICE_ID[/home/studio/workspace/MBED_1_2a]=0673FF525053885087032519
+DEVICE_TYPE[/home/studio/workspace/MBED_1_2a]=connected
+DEVICE_ID[/home/studio/workspace/MBED_1_2d-2]=0673FF525053885087032519
+DEVICE_TYPE[/home/studio/workspace/MBED_1_2d-2]=connected
+DEVICE_ID[/home/studio/workspace/MBED_2_1a]=0673FF525053885087032519
+DEVICE_TYPE[/home/studio/workspace/MBED_2_1a]=connected
+DEVICE_ID[/home/studio/workspace/MBED_2_3]=0673FF525053885087032519
+DEVICE_TYPE[/home/studio/workspace/MBED_2_3]=connected
+DEVICE_ID[/home/studio/workspace/MBED_2_4]=0673FF525053885087032519
+DEVICE_TYPE[/home/studio/workspace/MBED_2_4]=connected
+TARGET=DISCO_F429ZI
+TARGET_CODE=0795
+DEVICE_ID[/home/studio/workspace/MBED_2_5]=0673FF525053885087032519
+DEVICE_TYPE[/home/studio/workspace/MBED_2_5]=connected
